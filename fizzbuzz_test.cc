@@ -11,6 +11,7 @@ TEST(FizzBuzzTest, BasicAssertions) {
   EXPECT_EQ(printFizzBuzz(12), "fizz");
   EXPECT_EQ(printFizzBuzz(15), "fizzbuzz");
   EXPECT_EQ(printFizzBuzz(30), "fizzbuzz");
+  EXPECT_EQ(printFizzBuzz(31), "31");
 }
 
 
