@@ -1,0 +1,1 @@
+while inotifywait -e modify,close_write fizzbuzz.c fizzbuzz_test.cc; do ./runTests; done
